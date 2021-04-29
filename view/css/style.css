@@ -1,0 +1,187 @@
+/* GENERAL STYLE */
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  background-color: #46B1F1;
+  text-align: center;
+  color: #fff;
+}
+.header .nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .logo {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.header .nav .logo a {
+  text-decoration: none;
+  color: #fff;
+}
+.header .nav .menu {
+  font-weight: bold;
+  display: flex;
+}
+.header .nav .menu a {
+  text-decoration: none;
+  padding: 23px;
+  border-right: 1px solid #eee;
+  color: #fff;
+}
+.header .nav .menu a:first-child {
+  border-left: 1px solid #eee;
+}
+.header .nav .menu a:hover {
+  background-color: #6ac4f8;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* ESTYLE FORM */
+  /*STYLE TABLE */
+}
+.container .content-form {
+  width: 35%;
+  border: 3px solid #46B1F1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .content-form h1 {
+  margin: 30px 0;
+  font-weight: 300;
+  font-size: 40px;
+}
+.container .content-form .form {
+  width: 65%;
+}
+.container .content-form .form .content-input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid transparent;
+}
+.container .content-form .form .content-input .error {
+  color: red;
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+}
+.container .content-form .form .content-input input {
+  display: block;
+  border: none;
+  background-color: transparent;
+  padding: 8px 0;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  border-bottom: 1px solid #cac6c6;
+  color: #333232;
+}
+.container .content-form .form .content-input input:focus {
+  border-bottom: 1px solid #000000;
+}
+.container .content-form .form .btn {
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.container .content-form .form .btn:hover {
+  background-color: #262525;
+}
+.container .content-form .form .span {
+  font-size: 14px;
+  color: rgba(51, 50, 50, 0.933);
+  display: block;
+  margin-bottom: 50px;
+}
+.container .content-form .form .span a {
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+}
+.container .content-form .form .span a:hover {
+  transform: scale(1.03);
+}
+.container section {
+  width: 100%;
+}
+.container section thead {
+  background-color: #46B1F1;
+  text-transform: uppercase;
+  color: #fff;
+}
+.container section .table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.container section .table tr td i {
+  margin-right: 20px;
+  cursor: pointer;
+  color: #000000;
+}
+.container .error404 {
+  width: 100%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
+}
+.container .error404 p {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.container .error404 a {
+  width: 300px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+}
+.container .error404 a:hover {
+  background-color: #262525;
+}
+
+/*# sourceMappingURL=style.css.map */
